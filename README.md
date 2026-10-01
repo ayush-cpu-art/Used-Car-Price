@@ -1,8 +1,8 @@
-# 🚗 Used Car Price Prediction
+#  Used Car Price Prediction
 
 A machine learning project for predicting used car selling prices using regression models, feature engineering, exploratory data analysis, and hyperparameter tuning.
 
-## 📌 Overview
+##  Overview
 
 This project builds an end-to-end regression pipeline to estimate the selling price of used cars.
 
@@ -19,7 +19,7 @@ The workflow includes:
 - Model evaluation
 - Saving trained model and preprocessing artifacts
 
-## 📊 Dataset
+##  Dataset
 
 The dataset contains **4,340 used-car records** with 9 original features.
 
@@ -37,7 +37,7 @@ The dataset contains **4,340 used-car records** with 9 original features.
 
 There were no missing values or duplicate rows in the dataset.
 
-## ⚙️ Feature Engineering
+##  Feature Engineering
 
 Additional features were created to capture vehicle age and usage patterns:
 
@@ -50,7 +50,7 @@ Additional features were created to capture vehicle age and usage patterns:
 
 Categorical features were encoded and numerical features were standardized before model training.
 
-## 🤖 Models
+##  Models
 
 The following regression models were evaluated:
 
@@ -68,7 +68,7 @@ Evaluation metrics:
 - Root Mean Squared Error (RMSE)
 - R² Score
 
-## 📈 Model Comparison
+##  Model Comparison
 
 | Model | MAE | RMSE | R² |
 |---|---:|---:|---:|
@@ -80,7 +80,7 @@ Evaluation metrics:
 | Linear Regression | 2.544 | 4.067 | 0.8416 |
 | Ridge | 2.544 | 4.067 | 0.8416 |
 
-## 🔧 XGBoost Hyperparameter Tuning
+##  XGBoost Hyperparameter Tuning
 
 XGBoost was further optimized using 5-fold cross-validation with GridSearchCV.
 
